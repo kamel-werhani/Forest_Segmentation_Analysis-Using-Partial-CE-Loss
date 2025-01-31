@@ -58,10 +58,6 @@ Clone the repository:
  git clone https://github.com/kamel-werhani/Forest_Segmentation_Analysis-Using-Partial-CE-Loss.git
 ```
 
-Install dependencies:
-```sh
-pip install -r requirements.txt  # If a requirements file is added
-```
 
 ### Running the Notebook
 Open the Jupyter Notebook:
