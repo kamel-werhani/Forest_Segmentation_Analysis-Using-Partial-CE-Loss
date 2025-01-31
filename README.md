@@ -1,4 +1,4 @@
-# Forest Segmentation using Point Annotations
+# Forest Segmentation using Point Annotations and Partial-CE-Loss
 
 ## Overview
 This repository contains the implementation and analysis of a deep learning model for **forest segmentation** using **point annotations** instead of dense masks. The study investigates how **point annotation density** and **learning rate** affect model performance when trained with a custom **Partial Cross-Entropy Loss**.
