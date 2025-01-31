@@ -5,8 +5,7 @@ This repository contains the implementation and analysis of a deep learning mode
 
 ## Project Structure
 ```
-├── Kamel_Werhani_Technical_Assessement.ipynb  # Jupyter Notebook with model training
-├── Kamel_Werhani_Technical_Report.pdf         # Technical report detailing methodology and results
+├── Forest_Segmentation_Analysis-Using-Partial-CE-Loss.ipynb  # Jupyter Notebook with model training
 ├── README.md                                  # Project documentation (this file)
 └── data/                                      # Dataset (not included)
 ```
@@ -50,17 +49,13 @@ The experiments showed:
 
 ## Getting Started
 ### Requirements
-- Python 3.8+
-- PyTorch
-- OpenCV
-- NumPy
-- Matplotlib
+- You can run the notebook on kaggle notebook or colab
+- All the requirements are mentioned in the notebook.
 
 ### Installation
 Clone the repository:
 ```sh
- git clone https://github.com/YOUR-USERNAME/Forest_Segmentation_Analysis.git
- cd Forest_Segmentation_Analysis
+ git clone https://github.com/kamel-werhani/Forest_Segmentation_Analysis-Using-Partial-CE-Loss.git
 ```
 
 Install dependencies:
@@ -71,19 +66,9 @@ pip install -r requirements.txt  # If a requirements file is added
 ### Running the Notebook
 Open the Jupyter Notebook:
 ```sh
-jupyter notebook Kamel_Werhani_Technical_Assessement.ipynb
+Forest_Segmentation_Analysis-Using-Partial-CE-Loss.ipynb
 ```
-
-## Future Work
-- Improve model robustness with adaptive learning rates.
-- Explore alternative point annotation strategies.
-- Deploy as a web-based interactive annotation tool.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
-For questions or collaborations, feel free to reach out!
-
----
-*Happy coding! 🚀*
