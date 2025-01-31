@@ -41,6 +41,13 @@ A custom **Partial Cross-Entropy Loss** function is implemented with a **Focal L
 - **Best annotation density**: **50 points per image** (balance of accuracy & annotation effort).
 - **Optimal learning rate**: **1e-4** (best stability and convergence).
 
+## Results
+The experiments showed:
+- **50 points per image** achieved the best balance between accuracy and annotation effort.
+- **Higher annotation densities (100+ points)** led to diminishing returns in performance improvement.
+- **Learning rate 1e-4** provided the best trade-off between stability and convergence speed.
+- **Higher learning rates (1e-3)** caused instability, while **lower learning rates (1e-5)** required significantly more epochs to converge.
+
 ## Getting Started
 ### Requirements
 - Python 3.8+
