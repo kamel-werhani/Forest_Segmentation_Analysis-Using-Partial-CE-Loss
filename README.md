@@ -6,8 +6,7 @@ This repository contains the implementation and analysis of a deep learning mode
 ## Project Structure
 ```
 ├── Forest_Segmentation_Analysis-Using-Partial-CE-Loss.ipynb  # Jupyter Notebook with model training
-├── README.md                                  # Project documentation (this file)
-└── data/                                      # Dataset (not included)
+└── README.md                                  # Project documentation
 ```
 
 ## Methodology
