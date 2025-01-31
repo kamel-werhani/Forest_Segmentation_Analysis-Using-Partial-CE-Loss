@@ -6,14 +6,14 @@ Technical Report
 
 
 
-1. Introduction:
+# 1. Introduction:
 Semantic segmentation of remote sensing imagery is vital for applications like environmental monitoring, urban planning, and resource management. However, obtaining pixel-perfect segmentation masks for training is costly and time-consuming. 
 In many practical scenarios, such as in the case of satellite imagery annotation, we are limited to incomplete annotations like bounding boxes, polygons, or even sparse point annotations. This motivates research into methods that can learn effectively from limited or incomplete supervision.
 In this study, we focus on training a deep learning model with a custom partial cross-entropy loss function using only point annotations instead of dense masks. We investigate the impact of two critical factors:
-•	The density of point annotations
-•	The learning rates.
-2. Methods:
-2.1 Partial Cross-Entropy Loss Implementation:
+# •	The density of point annotations
+# •	The learning rates.
+# 2. Methods:
+# 2.1 Partial Cross-Entropy Loss Implementation:
 The core of our method lies in a custom Partial Cross-Entropy (CE) loss function, which includes a focal loss component to address the class imbalance between the forest and non-forest areas. The formula for our loss function is:
 pfCE = ∑ (Focal loss (pre, GT) * MASKlabeled) / ∑ MASKlabeled
 
